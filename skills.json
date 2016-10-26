@@ -1,0 +1,34 @@
+{
+	"OO": [
+		{"name":"Java"},
+		{"name":"Unified Process"}
+	],
+	"Agile Development": [
+		{"name":"XP"},
+		{"name":"Scrum"}
+	],
+	"Hobby Languages": [
+		{"name":"HTML"},
+		{"name":"CSS"},
+		{"name":"Javascript"},
+		{"name":"PHP"},
+		{"name":"SQL"}
+	],
+	"Operating System and Office Suite": [
+		{"name":"Linux - Ubtuntu"},
+		{"name":"Libre Office"},
+		{"name":"Windows '95 to 10"},
+		{"name":"Microsoft Office"}
+	],
+	"Familiar Programs": [
+		{"name":"Sublime Text"},
+		{"name":"IntelliJ Idea"},
+		{"name":"Team Viewer"},
+		{"name":"Nmap"}
+	], "Version Control": [
+		{"name":"Github"},
+		{"name":"Bit Bucket"}
+		{"name":"Dropbox"},
+		{"name":"Google Drive"}
+	]
+}

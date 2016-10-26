@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+
+		<script src="ProffSkills.js"></script>
+		<!--
+
+		<script src="jquery-3.1.1.min.js"></script> 
+
+		<script src="jquery-3.1.1.min.js"></script> 
+		-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+		<!-- Need jQuery script before the script call here -->
+		<script src="MyScript.js"></script>
+	</head>
+	<body>
+		<div class="container">		
+			<!-- Top menu bar for the site
+			It can be a Header -->
+			<div class="header">
+				<div style="width:40%; margin: auto; border: 1px solid black; text-align: center;">
+					<p style="color: white;">Troels Helbo Jensen CV</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="cv left minimumHeight">
+					<ul>
+						<h3>Links</h3>
+						<li><a href="https://dk.linkedin.com/in/troels-helbo-jensen-57363462" target="_blank">Linkedin - Min profil</a></li>
+						<li><a href="https://github.com/TroelsHelboJensen" target="_blank">Github - TroelsHelboJensen</a></li>
+						<li><a href="https://godkode.github.io" target="_blank">Github - Godkode</a></li>
+					</ul>
+				</div>
+
+				<div class="cv borderLeft left padLeft">
+					<ul>
+						<h4>Here i will put my personal description</h4>
+						<li>Problem solver</li>
+						<li>Extrovert</li>
+					</ul>
+				</div>
+
+				<div class="cv borderLeft left padLeft">
+					<ul>
+						<h4>My proffessionel skills</h4>
+						<li><span class="title" title="Object-oriented analysis and design">OOA and OOD</span>, <span title="Object Oriented Programming">OOP</span> learned through</li>
+						<ul>
+							<li>Java</li>
+							<li>Unified Process</li>
+						</ul>
+						<li>Agile Development</li>
+						<ul>
+							<li>XP</li>
+							<li>Scrum</li>
+						</ul>
+						<li>Hobby Languages</li>
+						<ul>
+							<li>HTML</li>
+							<li>CSS</li>
+							<li>Javascript</li>
+							<li>PHP</li>
+							<li>SQL</li>
+						</ul>
+						<li>Operating System and office suite</li>
+						<ul>
+							<li>Linux - Ubuntu</li>
+							<li>Libre Office</li>
+							<li>Microsoft Windows from 95 - 10</li>
+							<li>Microsoft Office</li>
+						</ul>
+						<li>Familiar Programs</li>
+						<ul>
+							<li>Sublime Text</li>
+							<li>IntelliJ Idea</li>
+							<li>Team Viewer</li>
+							<li>Nmap</li>
+						</ul>
+					</ul>
+				</div>
+				<div class="row">
+				</div>
+			</dic>
+		</div>
+
+		<script>
+			console.log($('.row').height());
+			$('.row').equalHeights();
+			console.log($('.row').height());
+		</script>
+	</body>
+</html>
